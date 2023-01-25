@@ -13,7 +13,11 @@ function Header() {
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
-          <img className="w-14" src="profile.gif" alt="logo" />
+          <img
+            className="w-14"
+            src="https://i.imgur.com/VvPCWB9.gif"
+            alt="logo"
+          />
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
@@ -80,7 +84,7 @@ function Header() {
               </svg>
             </a>
           </li>
-         
+
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg

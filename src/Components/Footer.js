@@ -13,7 +13,7 @@ function Footer() {
           
         </a>{" "}
         with
-        <span className="text-gradient font-medium"> OhFeel</span> &
+        <span className="text-gradient font-medium"> OhFeel</span>
         <span className="text-gradient font-medium"> #9999</span>
       </p>
     </footer>
