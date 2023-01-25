@@ -43,53 +43,34 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  github: "https://www.github.com/ohfeel",
+  twitter: "https://twitter.com/ohfeeel",
+  instagram: "https://www.instagram.com/ohwfeel/",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
     Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Company: `OhFeel inc.`,
+    Location: "Netherlands",
+    Type: "Student",
+    Duration: "Jan 2020 - Present",
   },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
+  
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
     Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
+    Company: "Ohfeel Inc.",
     Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Type: "Student",
+    Duration: "Jan 2020 - Present",
   },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
-  },
+  
+  
 ];
 
 // Tech Stack and Tools
