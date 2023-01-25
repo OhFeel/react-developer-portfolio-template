@@ -3,7 +3,7 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.gif";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -35,10 +35,10 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "OhFeel",
+  tagline: "I make cool website or something",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I do coding in html, css, javascript, react, redux, tailwind, bootstrap, sass, figma, vscode, postman, npm, git, github, etc.`,
 };
 
 // Enter your Social Media URLs here
@@ -65,12 +65,10 @@ export const eduDetails = [
   {
     Position: "Frontend Development",
     Company: "Ohfeel Inc.",
-    Location: "Online",
+    Location: "Netherlands",
     Type: "Student",
     Duration: "Jan 2020 - Present",
   },
-  
-  
 ];
 
 // Tech Stack and Tools
@@ -94,63 +92,62 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Calculator",
+    image:
+      "https://camo.githubusercontent.com/d87aa2b961fc365a5cae939af07ac13b4bd39a0633b90014618e9af2864de3df/68747470733a2f2f696d672e6f686665656c2e6c6976652f42726e6e302e706e67",
+    description: `A cool calculator in python with GUI made with tkinter library `,
+    techstack: "Python",
+    previewLink: "https://github.com/OhFeel/calculator/blob/main/calc.py",
+    githubLink: "https://github.com/OhFeel/calculator",
   },
   {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    title: "dvdsimulator",
+    image: "https://i.imgur.com/uLbWd6I.png",
+    description: `a cool dvd type simulator made with html, css and javascript`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://dvd.ohfeel.live",
+    githubLink: "https://github.com/OhFeel/dvdsim",
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "geogeussr-bot",
+    image:
+      "https://camo.githubusercontent.com/0f4070af9bf1a575c77855fab74a8a7247e00a1c1823cd32b8f9e0dbffa640b8/68747470733a2f2f692e696d6775722e636f6d2f457135777174522e706e67",
+    description: `A cool geoguessr bot made with python and selenium library`,
+    techstack: "Python",
+    previewLink: "https://github.com/OhFeel/geogeussr-bot",
+    githubLink: "https://github.com/OhFeel/geogeussr-bot",
   },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+//   {
+//     title: "Project title 4",
+//     image: projectImage4,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
+//   {
+//     title: "Project title 5",
+//     image: projectImage5,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
+//   {
+//     title: "Project title 6",
+//     image: projectImage6,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "OhFeel#9999",
+  phone: "no.",
 };
