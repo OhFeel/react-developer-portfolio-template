@@ -15,7 +15,7 @@ function Header() {
         <NavLink to="/">
           <img
             className="w-14"
-            src="../assets/ezgif.com-gif-maker (3).gif"
+            src="https://i.imgur.com/vLhTUWQ.gif"
             alt="logo"
           />
         </NavLink>
