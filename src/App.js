@@ -6,6 +6,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+import lol from "./Pages/lol";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/technologies" element={<Technologies />} />
+        <Route path="/404" element={<lol />} />
       </Routes>
       <Footer />
     </Router>
