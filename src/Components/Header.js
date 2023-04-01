@@ -15,7 +15,7 @@ function Header() {
         <NavLink to="/">
           <img
             className="w-14"
-            src="https://images-ext-2.discordapp.net/external/B_QDbxfK8IZ5rlbSng8fYtm61-SgMFqVd1ixh4SK8ck/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/755136326977847439/a_e81ad28c1c182d292e8173c7162dfece.gif"
+            src="https://i.imgur.com/vLhTUWQ.gif"
             alt="logo"
           />
         </NavLink>
