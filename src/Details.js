@@ -57,7 +57,6 @@ export const workDetails = [
     Type: "Student",
     Duration: "Jan 2020 - Present",
   },
-  
 ];
 
 // Enter your Education Details here
@@ -92,6 +91,22 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "Url Shortener",
+    image: "https://cdn.upload.systems/uploads/jibqyGW9.png",
+    description: `A cool url shortener made with html, css and javascript`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://url.ohfeel.xyz",
+    githubLink: "https://github.com/ohfeel",
+  },
+  {
+    title: "Img upload",
+    image: "https://cdn.upload.systems/uploads/z3141r4k.png",
+    description: `A cool image upload made with html, css and javascript`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://img.ohfeel.xyz",
+    githubLink: "https://github.com/ohfeel",
+  },
+  {
     title: "Calculator",
     image:
       "https://camo.githubusercontent.com/d87aa2b961fc365a5cae939af07ac13b4bd39a0633b90014618e9af2864de3df/68747470733a2f2f696d672e6f686665656c2e6c6976652f42726e6e302e706e67",
@@ -105,8 +120,9 @@ export const projectDetails = [
     image: "https://i.imgur.com/uLbWd6I.png",
     description: `a cool dvd type simulator made with html, css and javascript`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://dvd.ohfeel.live",
-    githubLink: "https://github.com/OhFeel/dvdsim",
+    previewLink: "https://dvd.ohfeel.xyz",
+    githubLink:
+      "https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/null/external-briefcase-startups-tanah-basah-basic-outline-tanah-basah.png",
   },
   {
     title: "geogeussr-bot",
@@ -117,33 +133,33 @@ export const projectDetails = [
     previewLink: "https://github.com/OhFeel/geogeussr-bot",
     githubLink: "https://github.com/OhFeel/geogeussr-bot",
   },
-//   {
-//     title: "Project title 4",
-//     image: projectImage4,
-//     description: `This is sample project description random things are here in description This is sample
-// project lorem ipsum generator for dummy content`,
-//     techstack: "HTML/CSS, JavaScript",
-//     previewLink: "https://google.com",
-//     githubLink: "https://github.com",
-//   },
-//   {
-//     title: "Project title 5",
-//     image: projectImage5,
-//     description: `This is sample project description random things are here in description This is sample
-// project lorem ipsum generator for dummy content`,
-//     techstack: "HTML/CSS, JavaScript",
-//     previewLink: "https://google.com",
-//     githubLink: "https://github.com",
-//   },
-//   {
-//     title: "Project title 6",
-//     image: projectImage6,
-//     description: `This is sample project description random things are here in description This is sample
-// project lorem ipsum generator for dummy content`,
-//     techstack: "HTML/CSS, JavaScript",
-//     previewLink: "https://google.com",
-//     githubLink: "https://github.com",
-//   },
+  //   {
+  //     title: "Project title 4",
+  //     image: projectImage4,
+  //     description: `This is sample project description random things are here in description This is sample
+  // project lorem ipsum generator for dummy content`,
+  //     techstack: "HTML/CSS, JavaScript",
+  //     previewLink: "https://google.com",
+  //     githubLink: "https://github.com",
+  //   },
+  //   {
+  //     title: "Project title 5",
+  //     image: projectImage5,
+  //     description: `This is sample project description random things are here in description This is sample
+  // project lorem ipsum generator for dummy content`,
+  //     techstack: "HTML/CSS, JavaScript",
+  //     previewLink: "https://google.com",
+  //     githubLink: "https://github.com",
+  //   },
+  //   {
+  //     title: "Project title 6",
+  //     image: projectImage6,
+  //     description: `This is sample project description random things are here in description This is sample
+  // project lorem ipsum generator for dummy content`,
+  //     techstack: "HTML/CSS, JavaScript",
+  //     previewLink: "https://google.com",
+  //     githubLink: "https://github.com",
+  //   },
 ];
 
 // Enter your Contact Details here
