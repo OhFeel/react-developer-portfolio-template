@@ -15,7 +15,7 @@ function Header() {
         <NavLink to="/">
           <img
             className="w-14"
-            src="https://ohfeel.live/gM0P9EiC"
+            src="https://cdn.upload.systems/uploads/gM0P9EiC.png"
             alt="logo"
           />
         </NavLink>

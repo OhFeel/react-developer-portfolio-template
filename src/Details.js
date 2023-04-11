@@ -37,8 +37,8 @@ export const logos = {
 export const personalDetails = {
   name: "OhFeel",
   tagline: "I make cool website or something",
-  img: "https://ohfeel.live/gM0P9EiC",
-  about: `I do coding in html, css, javascript, react, redux, tailwind, bootstrap, sass, figma, vscode, postman, npm, git, github, etc.`,
+  img: "https://cdn.upload.systems/uploads/gM0P9EiC.png",
+  about: `I code in html, css, javascript, react, redux, tailwind, bootstrap, sass, figma, vscode, postman, npm, git, github, etc.`,
 };
 
 // Enter your Social Media URLs here
