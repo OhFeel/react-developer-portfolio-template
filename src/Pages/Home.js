@@ -85,12 +85,14 @@ function Home() {
           src={img}
           alt="OhFeel"
         /> */}
-        <img
-          ref={myimageref}
-          src="https://lanyard-profile-readme.vercel.app/api/755136326977847439"
-          alt="Discord"
-          className="w-2 md:ml-auto"
-        />
+        <a href="https://discord.com/users/755136326977847439/">
+          <img
+            ref={myimageref}
+            src="https://lanyard-profile-readme.vercel.app/api/755136326977847439"
+            alt="Discord"
+            className="w-1/4 md:ml-auto"
+          />
+        </a>
       </div>
     </main>
   );
