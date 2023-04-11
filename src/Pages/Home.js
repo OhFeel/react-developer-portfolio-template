@@ -90,7 +90,7 @@ function Home() {
             ref={myimageref}
             src="https://lanyard-profile-readme.vercel.app/api/755136326977847439"
             alt="Discord"
-            className="w-1/4 md:ml-auto"
+            className="w-80 md:ml-auto"
           />
         </a>
       </div>
