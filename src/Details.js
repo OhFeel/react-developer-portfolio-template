@@ -37,7 +37,7 @@ export const logos = {
 export const personalDetails = {
   name: "OhFeel",
   tagline: "I make cool website or something",
-  img: profile,
+  img: "https://ohfeel.live/gM0P9EiC",
   about: `I do coding in html, css, javascript, react, redux, tailwind, bootstrap, sass, figma, vscode, postman, npm, git, github, etc.`,
 };
 
