@@ -86,6 +86,7 @@ function Home() {
           alt="OhFeel"
         /> */}
         <img
+          ref={myimageref}
           src="https://lanyard-profile-readme.vercel.app/api/755136326977847439"
           alt="Discord"
           className="w-2 md:ml-auto"
