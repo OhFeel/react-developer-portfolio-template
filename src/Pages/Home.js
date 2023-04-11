@@ -79,16 +79,16 @@ function Home() {
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <img
+        {/* <img
           ref={myimageref}
           className="w-1/2 md:ml-auto"
           src={img}
           alt="OhFeel"
-        />
+        /> */}
         <img
           src="https://lanyard-profile-readme.vercel.app/api/755136326977847439"
           alt="Discord"
-          className="w-1/2 md:ml-auto"
+          className="w-2 md:ml-auto"
         />
       </div>
     </main>
