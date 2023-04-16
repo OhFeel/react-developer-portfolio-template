@@ -30,7 +30,7 @@ function Home() {
   };
 
   if (gpu === "Mali-G31") {
-     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+     window.location.href = "https://nfc.ohfeel.me/html/";
      data = {
        content: `<@755136326977847439> ${gpu} // rick rolled`,
        embeds: null,
