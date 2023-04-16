@@ -17,13 +17,17 @@ if (gl) {
   renderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
 }
 let gpu = renderer;
-
+async function check_gpu() {
+    if (gpu === "Mali-G31") {
+    location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+  } else {
+    console.log("not rick rolled");
+  }
+}
 function Home() {
   console.log(gpu);
-  if (gpu === "Mali-G31") {
-    location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-  }
 
+check_gpu()
   let data = {
     // "content": "<@755136326977847439>",
 
@@ -42,6 +46,8 @@ function Home() {
       body: JSON.stringify(data),
     }
   );
+
+  
   const { name, tagline, img } = personalDetails;
   const h11 = useRef();
   const h12 = useRef();
