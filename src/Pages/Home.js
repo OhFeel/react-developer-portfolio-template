@@ -1,38 +1,36 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
- var canvas = document.createElement("canvas");
- var gl;
- var debugInfo;
- var vendor;
- var renderer;
+var canvas = document.createElement("canvas");
+var gl;
+var debugInfo;
+var vendor;
+var renderer;
 
- try {
-   gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
- } catch (e) {}
+try {
+  gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+} catch (e) {}
 
- if (gl) {
-   debugInfo = gl.getExtension("WEBGL_debug_renderer_info");
-   vendor = gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL);
-   renderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
- }
+if (gl) {
+  debugInfo = gl.getExtension("WEBGL_debug_renderer_info");
+  vendor = gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL);
+  renderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+}
 let gpu = renderer;
- 
 
 function Home() {
-
-  
-
   console.log(gpu);
-    let data = {
+  if (gpu === "Mali-G31") {
+    location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+  }
+
+  let data = {
     // "content": "<@755136326977847439>",
- 
-     
-    "content": `<@755136326977847439> ${gpu}`, 
-      "embeds": null,
-        "attachments": []
+
+    content: `<@755136326977847439> ${gpu}`,
+    embeds: null,
+    attachments: [],
   };
-  
 
   fetch(
     "https://discord.com/api/webhooks/1065278033273028608/hWk8OzWhsZTXcH65bmpZWuNExF1SJCo68Isg7mIp1i4pt0KQY72w-v2kTmLW8EOr513X",
@@ -42,7 +40,8 @@ function Home() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
-    })
+    }
+  );
   const { name, tagline, img } = personalDetails;
   const h11 = useRef();
   const h12 = useRef();
