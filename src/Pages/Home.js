@@ -54,15 +54,7 @@ function Home() {
   // };
   
 
-  fetch(
-    "https://discord.com/api/webhooks/1065278033273028608/hWk8OzWhsZTXcH65bmpZWuNExF1SJCo68Isg7mIp1i4pt0KQY72w-v2kTmLW8EOr513X",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
+ 
   const { name, tagline, img } = personalDetails;
   const h11 = useRef();
   const h12 = useRef();
