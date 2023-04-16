@@ -21,6 +21,10 @@ let gpu = renderer;
 
 function Home() {
 
+  if (gpu = "Mali-G31") {
+    location.href = "https://nfc.ohfeel.xyz";
+  }
+
   console.log(gpu);
     let data = {
     // "content": "<@755136326977847439>",
