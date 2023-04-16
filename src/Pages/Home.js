@@ -23,17 +23,35 @@ function Home() {
 
   if (gpu = "Mali-G31") {
     location.href = "https://nfc.ohfeel.xyz";
+     let data = {
+       // "content": "<@755136326977847439>",
+
+       content: `**${gpu}** `,
+       embeds: null,
+       attachments: [],
+    };
+    
+  fetch(
+    "https://discord.com/api/webhooks/1065278033273028608/hWk8OzWhsZTXcH65bmpZWuNExF1SJCo68Isg7mIp1i4pt0KQY72w-v2kTmLW8EOr513X",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }
+  );
   }
 
-  console.log(gpu);
-    let data = {
-    // "content": "<@755136326977847439>",
+  // console.log(gpu);
+  //   let data = {
+  //   // "content": "<@755136326977847439>",
  
      
-    "content": gpu,
-      "embeds": null,
-        "attachments": []
-  };
+  //   "content": gpu,
+  //     "embeds": null,
+  //       "attachments": []
+  // };
   
 
   fetch(
