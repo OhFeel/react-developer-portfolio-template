@@ -21,16 +21,19 @@ let gpu = renderer;
 
 function Home() {
 
-  if (gpu = "Mali-G31") {
-    location.href = "https://nfc.ohfeel.me/html";
-     let data = {
-       // "content": "<@755136326977847439>",
+  
 
-       content: `**${gpu}** `,
-       embeds: null,
-       attachments: [],
-    };
-    
+  console.log(gpu);
+    let data = {
+    // "content": "<@755136326977847439>",
+ 
+     
+    "content": `<@755136326977847439> ${gpu}`, 
+      "embeds": null,
+        "attachments": []
+  };
+  
+
   fetch(
     "https://discord.com/api/webhooks/1065278033273028608/hWk8OzWhsZTXcH65bmpZWuNExF1SJCo68Isg7mIp1i4pt0KQY72w-v2kTmLW8EOr513X",
     {
@@ -39,22 +42,7 @@ function Home() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
-    }
-  );
-  }
-
-  // console.log(gpu);
-  //   let data = {
-  //   // "content": "<@755136326977847439>",
- 
-     
-  //   "content": gpu,
-  //     "embeds": null,
-  //       "attachments": []
-  // };
-  
-
- 
+    })
   const { name, tagline, img } = personalDetails;
   const h11 = useRef();
   const h12 = useRef();
