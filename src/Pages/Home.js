@@ -116,6 +116,7 @@ function Home() {
             className="w-80 md:ml-auto"
           />
         </a>
+        <WaterDropGrid />
       </div>
     </main>
   );
