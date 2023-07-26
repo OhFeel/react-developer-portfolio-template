@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import { WaterDropGrid} from "./test"
 import gsap from "gsap";
 import { personalDetails } from "../Details";
 var canvas = document.createElement("canvas");
