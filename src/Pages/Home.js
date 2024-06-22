@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { WaterDropGrid} from "./test"
+
 import gsap from "gsap";
 import { personalDetails } from "../Details";
 var canvas = document.createElement("canvas");
@@ -116,7 +116,7 @@ function Home() {
             className="w-80 md:ml-auto"
           />
         </a>
-        <WaterDropGrid />
+       
       </div>
     </main>
   );
